@@ -34,26 +34,25 @@
 ## Table of Contents
 
 1. [Problem Statement](#problem-statement)
-2. [Problem Analysis](#problem-analysis)
-3. [Proposed Solution](#proposed-solution)
-4. [Target Users](#target-users)
-5. [System Architecture](#system-architecture)
-6. [Complete Workflow and Data Flow](#complete-workflow-and-data-flow)
-7. [Flowcharts](#flowcharts)
-8. [AI Model Selection and Justification](#ai-model-selection-and-justification)
-9. [Technology Stack](#technology-stack)
-10. [Project Structure](#project-structure)
-11. [Target Voucher Categories (27)](#target-voucher-categories-27)
-12. [Input Dataset](#input-dataset)
-13. [Output Specification](#output-specification)
-14. [Core Technical Challenges](#core-technical-challenges)
-15. [Classification Strategy](#classification-strategy)
-16. [Evaluation Methodology](#evaluation-methodology)
-17. [Implementation Plan](#implementation-plan)
-18. [Scalability and Production Readiness](#scalability-and-production-readiness)
-19. [Expected Challenges and Mitigations](#expected-challenges-and-mitigations)
-20. [Dependencies](#dependencies)
-21. [Expected Outcomes](#expected-outcomes)
+2. [Proposed Solution](#proposed-solution)
+3. [Target Users](#target-users)
+4. [System Architecture](#system-architecture)
+5. [Complete Workflow and Data Flow](#complete-workflow-and-data-flow)
+6. [Flowcharts](#flowcharts)
+7. [AI Model Selection and Justification](#ai-model-selection-and-justification)
+8. [Technology Stack](#technology-stack)
+9. [Project Structure](#project-structure)
+10. [Target Voucher Categories (27)](#target-voucher-categories-27)
+11. [Input Dataset](#input-dataset)
+12. [Output Specification](#output-specification)
+13. [Core Technical Challenges](#core-technical-challenges)
+14. [Classification Strategy](#classification-strategy)
+15. [Evaluation Methodology](#evaluation-methodology)
+16. [Implementation Plan](#implementation-plan)
+17. [Scalability and Production Readiness](#scalability-and-production-readiness)
+18. [Expected Challenges and Mitigations](#expected-challenges-and-mitigations)
+19. [Dependencies](#dependencies)
+20. [Expected Outcomes](#expected-outcomes)
 
 ---
 
@@ -67,27 +66,6 @@ Build an AI system that determines the appropriate **accounting voucher category
 
 ---
 
-## Problem Analysis
-
-### Why Is This Hard?
-
-Automated voucher classification remains one of the most underappreciated unsolved problems in Indian accounting software. Here is a breakdown of the core difficulties:
-
-| Challenge | Description |
-|-----------|-------------|
-| **Semantic Ambiguity** | Purchase vs. Sales look identical structurally - the direction of the transaction matters |
-| **27 Categories** | Many categories are semantically close (e.g., Contra vs. Payment, Journal vs. Purchase) |
-| **Sparse Fields** | Not all fields are populated for every transaction type |
-| **Context Dependency** | A Receipt in payroll context is not a Receipt in trade context |
-| **Multi-field Reasoning** | No single field determines the class; the model must synthesize all available signals |
-| **Ambiguity Traps** | Debit Note appears in both Purchase Return and Journal contexts |
-| **Indian GST Semantics** | Fields like IGST, SGST, CGST, reverse charge, RCM create additional semantic layers |
-
-### The Business Case
-
-India's GSTN processes over **2 billion invoices per month**. Manual voucher classification in Tally/VYOM+ takes an average of **3-8 seconds per transaction** and has a human error rate of **4-7%**. An intelligent classifier achieving **>90% accuracy** at **<500ms per transaction** saves Indian SMEs thousands of man-hours annually and directly reduces compliance risk.
-
----
 
 ## Proposed Solution
 

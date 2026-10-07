@@ -97,6 +97,13 @@ This hybrid architecture ensures **speed + accuracy + explainability** - the thr
 
 ## System Architecture
 
+> **Diagram 1 of 3 — Full Pipeline Architecture** · Shows all 7 processing stages from Excel input to structured output, with the 3 classification layers color-coded by speed and accuracy.
+
+![VoucherMind 3-Layer Hybrid Architecture](docs/images/architecture.svg)
+
+*Figure 1: VoucherMind 3-Layer Hybrid Architecture — Rule Engine (orange, ⚡ fast) → Embedding RAG (purple, 🔍 medium) → Qwen2.5-7B LLM (green glow, 🧠 deep reasoning) → Business Rule Validator → Structured Output*
+
+
 ```
 +-----------------------------------------------------------------------------+
 |                         VoucherMind Architecture                            |
@@ -432,6 +439,13 @@ Inference  : Merged adapter + GGUF 4-bit quantization via llama.cpp
 
 ## Technology Stack
 
+> **Diagram 2 of 3 — Technology Stack Overview** · Six color-coded cards showing each layer's technology, version, and the reason it was chosen.
+
+![VoucherMind Technology Stack](docs/images/tech_stack.svg)
+
+*Figure 2: Technology Stack — Each tool is chosen for being open-source (Apache 2.0), production-ready, and best-in-class for its specific role in the pipeline.*
+
+
 ### Core AI/ML
 
 | Component | Technology | Version | Purpose |
@@ -582,6 +596,13 @@ vouchermind/
 ---
 
 ## Target Voucher Categories (27)
+
+> **Diagram 3 of 3 — Voucher Category Classification Map** · All 27 target categories organized by domain with color coding and disambiguation warnings (⚠️ marks semantically similar pairs).
+
+![27 Voucher Categories Classification Map](docs/images/voucher_categories.svg)
+
+*Figure 3: All 27 voucher categories grouped by domain. ⚠️ markers highlight semantically similar pairs that require multi-field reasoning to distinguish — the core challenge this system solves.*
+
 
 | No | Voucher Type | Key Signals | Common Confusion |
 |----|-------------|-------------|-----------------|

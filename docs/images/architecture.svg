@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+  <linearGradient id="inG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#388bfd"/></linearGradient>
+  <linearGradient id="rG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#d97706"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+  <linearGradient id="eG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#a855f7"/></linearGradient>
+  <linearGradient id="lG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#065f46"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+  <linearGradient id="vG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#92400e"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+  <linearGradient id="oG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0c4a6e"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.5"/></filter>
+  <marker id="aB" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,9 3,0 6" fill="#58a6ff"/></marker>
+  <marker id="aG" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,9 3,0 6" fill="#10b981"/></marker>
+  <marker id="aO" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,9 3,0 6" fill="#f59e0b"/></marker>
+  <marker id="aP" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,9 3,0 6" fill="#a855f7"/></marker>
+</defs>
+<rect width="1100" height="620" fill="url(#bg)" rx="10"/>
+<rect width="1100" height="620" fill="none" stroke="#30363d" stroke-width="1.5" rx="10"/>
+<text x="550" y="38" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="20" font-weight="700">VoucherMind - 3-Layer Hybrid AI Classification Architecture</text>
+<text x="550" y="58" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="12">Rule Engine  &#8594;  Embedding RAG  &#8594;  Open-Source LLM  |  Team Hack-o-fy  |  HacktoberFest 2026</text>
+<!-- BOX 1: INPUT -->
+<rect x="20" y="210" width="130" height="100" rx="8" fill="url(#inG)" filter="url(#sh)"/>
+<text x="85" y="248" text-anchor="middle" fill="white" font-family="Arial" font-size="22">&#128194;</text>
+<text x="85" y="268" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="700">Excel Input</text>
+<text x="85" y="284" text-anchor="middle" fill="#bfdbfe" font-family="Arial" font-size="10">.xlsx / CSV</text>
+<text x="85" y="298" text-anchor="middle" fill="#bfdbfe" font-family="Arial" font-size="10">Structured fields</text>
+<line x1="150" y1="260" x2="188" y2="260" stroke="#58a6ff" stroke-width="2" marker-end="url(#aB)"/>
+<!-- BOX 2: PREPROCESSOR -->
+<rect x="190" y="190" width="145" height="140" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="190" y="190" width="145" height="4" rx="2" fill="#1f6feb"/>
+<text x="263" y="225" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="18">&#9881;</text>
+<text x="263" y="244" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="11" font-weight="700">Preprocessor</text>
+<text x="263" y="262" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="9">&#8226; Schema Parser</text>
+<text x="263" y="276" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="9">&#8226; Field Normalizer</text>
+<text x="263" y="290" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="9">&#8226; Missing Value Handler</text>
+<text x="263" y="304" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="9">&#8226; Unicode Normalization</text>
+<text x="263" y="318" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="9">&#8226; Type Coercion</text>
+<line x1="335" y1="260" x2="373" y2="260" stroke="#58a6ff" stroke-width="2" marker-end="url(#aB)"/>
+<!-- BOX 3: RULE ENGINE -->
+<rect x="375" y="165" width="155" height="105" rx="8" fill="url(#rG)" filter="url(#sh)"/>
+<text x="453" y="197" text-anchor="middle" fill="white" font-family="Arial" font-size="20">&#128203;</text>
+<text x="453" y="216" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="700">Rule Engine</text>
+<text x="453" y="233" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">20+ Heuristic Rules</text>
+<text x="453" y="247" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">GSTIN Direction Detection</text>
+<text x="453" y="261" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">Domain Keyword Maps</text>
+<rect x="385" y="276" width="135" height="22" rx="4" fill="#78350f" stroke="#f59e0b" stroke-width="1"/>
+<text x="453" y="291" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="9" font-weight="700">&#9889; FAST: 35% rows, &lt;5ms, 99% acc</text>
+<path d="M453 300 L453 350 L575 350" stroke="#a855f7" stroke-width="1.8" stroke-dasharray="5,3" fill="none" marker-end="url(#aP)"/>
+<path d="M530 217 L660 217 L660 190 L698 190" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="5,3" fill="none" marker-end="url(#aO)"/>
+<text x="600" y="210" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="9">unresolved &#8594;</text>
+<!-- BOX 4: EMBEDDING + RAG -->
+<rect x="550" y="320" width="155" height="115" rx="8" fill="url(#eG)" filter="url(#sh)"/>
+<text x="628" y="355" text-anchor="middle" fill="white" font-family="Arial" font-size="20">&#128290;</text>
+<text x="628" y="374" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">Embedding + RAG</text>
+<text x="628" y="391" text-anchor="middle" fill="#ede9fe" font-family="Arial" font-size="9">all-MiniLM-L6-v2</text>
+<text x="628" y="405" text-anchor="middle" fill="#ede9fe" font-family="Arial" font-size="9">ChromaDB Vector Store</text>
+<text x="628" y="419" text-anchor="middle" fill="#ede9fe" font-family="Arial" font-size="9">Top-K Similar Examples</text>
+<rect x="560" y="440" width="135" height="22" rx="4" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
+<text x="628" y="455" text-anchor="middle" fill="#c4b5fd" font-family="Arial" font-size="9" font-weight="700">&#128269; MED: 25% rows, ~50ms</text>
+<path d="M705 382 L755 382 L755 265 L798 265" stroke="#a855f7" stroke-width="1.8" stroke-dasharray="5,3" fill="none" marker-end="url(#aP)"/>
+<!-- BOX 5: LLM (glowing) -->
+<rect x="700" y="120" width="185" height="185" rx="12" fill="url(#lG)" filter="url(#glow)"/>
+<text x="793" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="26">&#129504;</text>
+<text x="793" y="178" text-anchor="middle" fill="white" font-family="Arial" font-size="13" font-weight="700">Qwen2.5-7B-Instruct</text>
+<text x="793" y="196" text-anchor="middle" fill="#a7f3d0" font-family="Arial" font-size="10" font-weight="700">QLoRA Fine-tuned</text>
+<text x="793" y="214" text-anchor="middle" fill="#d1fae5" font-family="Arial" font-size="9">Chain-of-Thought Prompting</text>
+<text x="793" y="228" text-anchor="middle" fill="#d1fae5" font-family="Arial" font-size="9">Few-Shot RAG Examples</text>
+<text x="793" y="242" text-anchor="middle" fill="#d1fae5" font-family="Arial" font-size="9">Structured JSON Output</text>
+<text x="793" y="256" text-anchor="middle" fill="#d1fae5" font-family="Arial" font-size="9">32K Token Context Window</text>
+<text x="793" y="270" text-anchor="middle" fill="#d1fae5" font-family="Arial" font-size="9">Apache 2.0 Open-Source</text>
+<rect x="710" y="284" width="165" height="22" rx="4" fill="#052e16" stroke="#10b981" stroke-width="1.5"/>
+<text x="793" y="299" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="9" font-weight="700">&#127775; DEEP: 40% rows, ~300ms, CoT</text>
+<line x1="885" y1="212" x2="918" y2="212" stroke="#10b981" stroke-width="2" marker-end="url(#aG)"/>
+<!-- BOX 6: VALIDATOR -->
+<rect x="920" y="150" width="148" height="130" rx="8" fill="url(#vG)" filter="url(#sh)"/>
+<text x="994" y="183" text-anchor="middle" fill="white" font-family="Arial" font-size="20">&#9989;</text>
+<text x="994" y="202" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">Rule Validator</text>
+<text x="994" y="220" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">Business Rule Checks</text>
+<text x="994" y="234" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">Confidence Scorer</text>
+<text x="994" y="248" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">Ambiguity Detector</text>
+<text x="994" y="262" text-anchor="middle" fill="#fef3c7" font-family="Arial" font-size="9">Contradiction Flagging</text>
+<line x1="994" y1="280" x2="994" y2="325" stroke="#fbbf24" stroke-width="2" marker-end="url(#aO)"/>
+<!-- BOX 7: OUTPUT -->
+<rect x="920" y="327" width="148" height="115" rx="8" fill="url(#oG)" filter="url(#sh)"/>
+<text x="994" y="360" text-anchor="middle" fill="white" font-family="Arial" font-size="20">&#128228;</text>
+<text x="994" y="380" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">Structured Output</text>
+<text x="994" y="397" text-anchor="middle" fill="#cffafe" font-family="Arial" font-size="9">JSON Lines / CSV</text>
+<text x="994" y="411" text-anchor="middle" fill="#cffafe" font-family="Arial" font-size="9">Confidence Score</text>
+<text x="994" y="425" text-anchor="middle" fill="#cffafe" font-family="Arial" font-size="9">CoT Reasoning Trace</text>
+<text x="994" y="439" text-anchor="middle" fill="#cffafe" font-family="Arial" font-size="9">Audit Log</text>
+<!-- LEGEND -->
+<rect x="20" y="490" width="1060" height="112" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="550" y="512" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="11" font-weight="700">CONFIDENCE THRESHOLD LEGEND</text>
+<rect x="60" y="523" width="12" height="12" rx="2" fill="#10b981"/>
+<text x="80" y="534" fill="#f0f6fc" font-family="Arial" font-size="11">&#8805;0.90 Auto-Classify</text>
+<rect x="265" y="523" width="12" height="12" rx="2" fill="#fbbf24"/>
+<text x="285" y="534" fill="#f0f6fc" font-family="Arial" font-size="11">0.75-0.89 Ambiguity Flag</text>
+<rect x="530" y="523" width="12" height="12" rx="2" fill="#f97316"/>
+<text x="550" y="534" fill="#f0f6fc" font-family="Arial" font-size="11">0.60-0.74 Human Review</text>
+<rect x="790" y="523" width="12" height="12" rx="2" fill="#ef4444"/>
+<text x="810" y="534" fill="#f0f6fc" font-family="Arial" font-size="11">&lt;0.60 Mandatory Review</text>
+<text x="550" y="575" text-anchor="middle" fill="#484f58" font-family="Arial" font-size="10">Team Hack-o-fy  |  HacktoberFest 2026  |  PS-4: VYOM+ Voucher Classification  |  VoucherMind v1.0</text>
+<!-- Step circles -->
+<circle cx="85" cy="190" r="12" fill="#1f6feb"/><text x="85" y="195" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">1</text>
+<circle cx="263" cy="172" r="12" fill="#21262d" stroke="#30363d"/><text x="263" y="177" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">2</text>
+<circle cx="453" cy="147" r="12" fill="#92400e"/><text x="453" y="152" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">3</text>
+<circle cx="628" cy="303" r="12" fill="#4c1d95"/><text x="628" y="308" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">4</text>
+<circle cx="793" cy="100" r="12" fill="#065f46"/><text x="793" y="105" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">5</text>
+<circle cx="994" cy="132" r="12" fill="#92400e"/><text x="994" y="137" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">6</text>
+<circle cx="994" cy="309" r="12" fill="#0c4a6e"/><text x="994" y="314" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="700">7</text>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680">
+<defs>
+  <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+</defs>
+<rect width="1000" height="680" fill="url(#bg3)" rx="10"/>
+<rect width="1000" height="680" fill="none" stroke="#30363d" stroke-width="1.5" rx="10"/>
+<text x="500" y="38" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="20" font-weight="700">27 Voucher Categories - Classification Map</text>
+<text x="500" y="58" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="12">Color-coded by domain  |  VoucherMind AI System  |  Team Hack-o-fy</text>
+<!-- LEGEND -->
+<rect x="30" y="75" width="940" height="38" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="45" y="86" width="14" height="14" rx="3" fill="#1f6feb"/><text x="66" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Trade</text>
+<rect x="125" y="86" width="14" height="14" rx="3" fill="#7c3aed"/><text x="146" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Financial</text>
+<rect x="235" y="86" width="14" height="14" rx="3" fill="#065f46"/><text x="256" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Payroll</text>
+<rect x="325" y="86" width="14" height="14" rx="3" fill="#d97706"/><text x="346" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Inventory</text>
+<rect x="435" y="86" width="14" height="14" rx="3" fill="#0c4a6e"/><text x="456" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Import/Export</text>
+<rect x="565" y="86" width="14" height="14" rx="3" fill="#92400e"/><text x="586" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Orders/Notes</text>
+<rect x="685" y="86" width="14" height="14" rx="3" fill="#7f1d1d"/><text x="706" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Returns</text>
+<rect x="775" y="86" width="14" height="14" rx="3" fill="#374151"/><text x="796" y="97" fill="#f0f6fc" font-family="Arial" font-size="10">Other</text>
+<!-- ROW 1: Trade -->
+<text x="500" y="142" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">TRADE VOUCHERS</text>
+<rect x="30" y="150" width="145" height="55" rx="7" fill="#0d2340" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="103" y="170" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">Purchase</text>
+<text x="103" y="185" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9">Buyer=us, goods/services in</text>
+<text x="103" y="198" text-anchor="middle" fill="#60a5fa" font-family="Arial" font-size="8">vs. Sales &#9888;</text>
+<rect x="190" y="150" width="145" height="55" rx="7" fill="#0d2340" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="263" y="170" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">Sales</text>
+<text x="263" y="185" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9">Seller=us, goods/services out</text>
+<text x="263" y="198" text-anchor="middle" fill="#60a5fa" font-family="Arial" font-size="8">vs. Purchase &#9888;</text>
+<rect x="350" y="150" width="145" height="55" rx="7" fill="#0d2340" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="423" y="170" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">Expense</text>
+<text x="423" y="185" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9">Operational cost, no goods</text>
+<text x="423" y="198" text-anchor="middle" fill="#60a5fa" font-family="Arial" font-size="8">vs. Payment &#9888;</text>
+<rect x="510" y="150" width="145" height="55" rx="7" fill="#0d2340" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="583" y="170" text-anchor="middle" fill="#58a6ff" font-family="Arial" font-size="11" font-weight="700">Advance/Prepay</text>
+<text x="583" y="185" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9">Payment before delivery</text>
+<text x="583" y="198" text-anchor="middle" fill="#60a5fa" font-family="Arial" font-size="8">vs. Payment &#9888;</text>
+<!-- ROW 2: Financial -->
+<text x="500" y="238" text-anchor="middle" fill="#c084fc" font-family="Arial" font-size="11" font-weight="700">FINANCIAL VOUCHERS</text>
+<rect x="30" y="246" width="145" height="55" rx="7" fill="#1a0533" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="103" y="267" text-anchor="middle" fill="#c084fc" font-family="Arial" font-size="11" font-weight="700">Payment</text>
+<text x="103" y="282" text-anchor="middle" fill="#ddd6fe" font-family="Arial" font-size="9">Cash/bank outflow, no goods</text>
+<text x="103" y="295" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="8">vs. Contra &#9888;</text>
+<rect x="190" y="246" width="145" height="55" rx="7" fill="#1a0533" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="263" y="267" text-anchor="middle" fill="#c084fc" font-family="Arial" font-size="11" font-weight="700">Receipt</text>
+<text x="263" y="282" text-anchor="middle" fill="#ddd6fe" font-family="Arial" font-size="9">Cash/bank inflow, no goods</text>
+<text x="263" y="295" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="8">vs. Contra &#9888;</text>
+<rect x="350" y="246" width="145" height="55" rx="7" fill="#1a0533" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="423" y="267" text-anchor="middle" fill="#c084fc" font-family="Arial" font-size="11" font-weight="700">Contra</text>
+<text x="423" y="282" text-anchor="middle" fill="#ddd6fe" font-family="Arial" font-size="9">Bank-to-bank own accounts</text>
+<text x="423" y="295" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="8">vs. Payment &#9888;</text>
+<rect x="510" y="246" width="145" height="55" rx="7" fill="#1a0533" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="583" y="267" text-anchor="middle" fill="#c084fc" font-family="Arial" font-size="11" font-weight="700">Journal</text>
+<text x="583" y="282" text-anchor="middle" fill="#ddd6fe" font-family="Arial" font-size="9">Adjustments, provisions</text>
+<text x="583" y="295" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="8">vs. Purchase/Sales &#9888;</text>
+<!-- ROW 3: Payroll -->
+<text x="250" y="335" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="11" font-weight="700">PAYROLL</text>
+<rect x="30" y="343" width="145" height="55" rx="7" fill="#052e16" stroke="#065f46" stroke-width="1.5"/>
+<text x="103" y="363" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="11" font-weight="700">Salary/Payroll</text>
+<text x="103" y="378" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="9">Employee, PF, ESI fields</text>
+<text x="103" y="391" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="8">vs. Payment/Journal &#9888;</text>
+<rect x="190" y="343" width="145" height="55" rx="7" fill="#052e16" stroke="#065f46" stroke-width="1.5"/>
+<text x="263" y="363" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="11" font-weight="700">Attendance</text>
+<text x="263" y="378" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="9">Leave, shift, attendance data</text>
+<text x="263" y="391" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="8">vs. Salary &#9888;</text>
+<!-- ROW 3: Returns -->
+<text x="700" y="335" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="11" font-weight="700">RETURNS</text>
+<rect x="510" y="343" width="145" height="55" rx="7" fill="#1a0000" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="583" y="363" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="11" font-weight="700">Purchase Return</text>
+<text x="583" y="378" text-anchor="middle" fill="#fecaca" font-family="Arial" font-size="9">Goods back to supplier</text>
+<text x="583" y="391" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="8">vs. Sales Return &#9888;</text>
+<rect x="670" y="343" width="145" height="55" rx="7" fill="#1a0000" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="743" y="363" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="11" font-weight="700">Sales Return</text>
+<text x="743" y="378" text-anchor="middle" fill="#fecaca" font-family="Arial" font-size="9">Goods back from customer</text>
+<text x="743" y="391" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="8">vs. Purchase Return &#9888;</text>
+<rect x="830" y="343" width="145" height="55" rx="7" fill="#1a0000" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="903" y="363" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="11" font-weight="700">Rejection In/Out</text>
+<text x="903" y="378" text-anchor="middle" fill="#fecaca" font-family="Arial" font-size="9">Goods rejected inward/outward</text>
+<text x="903" y="391" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="8">vs. Returns &#9888;</text>
+<!-- ROW 4: Inventory -->
+<text x="500" y="432" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="11" font-weight="700">INVENTORY VOUCHERS</text>
+<rect x="30" y="440" width="145" height="55" rx="7" fill="#1c0f00" stroke="#d97706" stroke-width="1.5"/>
+<text x="103" y="460" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="11" font-weight="700">Stock Journal</text>
+<text x="103" y="475" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="9">Internal stock transfer</text>
+<text x="103" y="488" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="8">vs. Material In/Out &#9888;</text>
+<rect x="190" y="440" width="145" height="55" rx="7" fill="#1c0f00" stroke="#d97706" stroke-width="1.5"/>
+<text x="263" y="460" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="11" font-weight="700">Physical Stock</text>
+<text x="263" y="475" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="9">Stock count / balance</text>
+<text x="263" y="488" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="8">vs. Stock Journal &#9888;</text>
+<rect x="350" y="440" width="145" height="55" rx="7" fill="#1c0f00" stroke="#d97706" stroke-width="1.5"/>
+<text x="423" y="460" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="11" font-weight="700">Material In</text>
+<text x="423" y="475" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="9">Raw material inward</text>
+<text x="423" y="488" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="8">vs. Purchase &#9888;</text>
+<rect x="510" y="440" width="145" height="55" rx="7" fill="#1c0f00" stroke="#d97706" stroke-width="1.5"/>
+<text x="583" y="460" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="11" font-weight="700">Material Out</text>
+<text x="583" y="475" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="9">Material to production</text>
+<text x="583" y="488" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="8">vs. Sales &#9888;</text>
+<!-- ROW 5: Orders + Import/Export + Other -->
+<text x="500" y="528" text-anchor="middle" fill="#67e8f9" font-family="Arial" font-size="11" font-weight="700">ORDERS / IMPORT-EXPORT / OTHER</text>
+<rect x="30" y="536" width="120" height="50" rx="6" fill="#00211e" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="90" y="558" text-anchor="middle" fill="#67e8f9" font-family="Arial" font-size="9" font-weight="700">Purchase Order</text>
+<text x="90" y="572" text-anchor="middle" fill="#a5f3fc" font-family="Arial" font-size="8">PO, no invoice</text>
+<rect x="162" y="536" width="120" height="50" rx="6" fill="#00211e" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="222" y="558" text-anchor="middle" fill="#67e8f9" font-family="Arial" font-size="9" font-weight="700">Sales Order</text>
+<text x="222" y="572" text-anchor="middle" fill="#a5f3fc" font-family="Arial" font-size="8">SO, no invoice</text>
+<rect x="294" y="536" width="120" height="50" rx="6" fill="#00211e" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="354" y="558" text-anchor="middle" fill="#67e8f9" font-family="Arial" font-size="9" font-weight="700">Receipt Note</text>
+<text x="354" y="572" text-anchor="middle" fill="#a5f3fc" font-family="Arial" font-size="8">GRN, no payment</text>
+<rect x="426" y="536" width="120" height="50" rx="6" fill="#00211e" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="486" y="558" text-anchor="middle" fill="#67e8f9" font-family="Arial" font-size="9" font-weight="700">Delivery Note</text>
+<text x="486" y="572" text-anchor="middle" fill="#a5f3fc" font-family="Arial" font-size="8">DN, no payment</text>
+<rect x="558" y="536" width="110" height="50" rx="6" fill="#001833" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="613" y="558" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9" font-weight="700">Import</text>
+<text x="613" y="572" text-anchor="middle" fill="#bfdbfe" font-family="Arial" font-size="8">Foreign + customs</text>
+<rect x="678" y="536" width="110" height="50" rx="6" fill="#001833" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="733" y="558" text-anchor="middle" fill="#93c5fd" font-family="Arial" font-size="9" font-weight="700">Export</text>
+<text x="733" y="572" text-anchor="middle" fill="#bfdbfe" font-family="Arial" font-size="8">Foreign buyer + LUT</text>
+<rect x="798" y="536" width="110" height="50" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+<text x="853" y="554" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="9" font-weight="700">Job Work</text>
+<text x="853" y="568" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="8">In/Out Orders</text>
+<rect x="918" y="536" width="62" height="50" rx="6" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+<text x="949" y="554" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9" font-weight="700">Other</text>
+<text x="949" y="568" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="8">Misc</text>
+<!-- warning note -->
+<text x="500" y="645" text-anchor="middle" fill="#484f58" font-family="Arial" font-size="10">&#9888; = Semantically similar pair requiring careful disambiguation  |  VoucherMind resolves all 27 categories via Chain-of-Thought Reasoning</text>
+</svg>

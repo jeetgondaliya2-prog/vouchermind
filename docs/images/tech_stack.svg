@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+  <filter id="sh2"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-opacity="0.5"/></filter>
+  <filter id="glow2"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="560" fill="url(#bg2)" rx="10"/>
+<rect width="1000" height="560" fill="none" stroke="#30363d" stroke-width="1.5" rx="10"/>
+<text x="500" y="40" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="22" font-weight="700">VoucherMind - Technology Stack</text>
+<text x="500" y="62" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="12">Team Hack-o-fy  |  HacktoberFest 2026  |  Problem Statement 4</text>
+<!-- Card 1: LLM (green glow) -->
+<rect x="30" y="90" width="290" height="175" rx="10" fill="#0d2818" stroke="#10b981" stroke-width="2" filter="url(#glow2)"/>
+<text x="155" y="125" text-anchor="middle" fill="#10b981" font-family="Arial" font-size="28">&#129504;</text>
+<text x="155" y="150" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">Primary LLM</text>
+<text x="155" y="172" text-anchor="middle" fill="#10b981" font-family="Arial" font-size="13" font-weight="700">Qwen2.5-7B-Instruct</text>
+<text x="155" y="193" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="10">QLoRA Fine-tuned  |  4-bit GGUF Quantized</text>
+<text x="155" y="209" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="10">32K Token Context  |  Apache 2.0 License</text>
+<text x="155" y="225" text-anchor="middle" fill="#6ee7b7" font-family="Arial" font-size="10">JSON Structured Output  |  Multilingual</text>
+<text x="155" y="244" text-anchor="middle" fill="#34d399" font-family="Arial" font-size="9" font-weight="700">WHY: Best JSON instruction-following in 7B class</text>
+<!-- Card 2: Embeddings (purple) -->
+<rect x="355" y="90" width="290" height="175" rx="10" fill="#1a0533" stroke="#a855f7" stroke-width="2" filter="url(#sh2)"/>
+<text x="500" y="125" text-anchor="middle" fill="#a855f7" font-family="Arial" font-size="28">&#128290;</text>
+<text x="500" y="150" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">Embeddings + RAG</text>
+<text x="500" y="172" text-anchor="middle" fill="#a855f7" font-family="Arial" font-size="13" font-weight="700">sentence-transformers</text>
+<text x="500" y="193" text-anchor="middle" fill="#c4b5fd" font-family="Arial" font-size="10">all-MiniLM-L6-v2  |  22M params</text>
+<text x="500" y="209" text-anchor="middle" fill="#c4b5fd" font-family="Arial" font-size="10">ChromaDB Vector Store  |  FAISS fallback</text>
+<text x="500" y="225" text-anchor="middle" fill="#c4b5fd" font-family="Arial" font-size="10">Top-K Similarity Search  |  &lt;100ms</text>
+<text x="500" y="244" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="9" font-weight="700">WHY: Proven RAG performance, Apache 2.0</text>
+<!-- Card 3: Rule Engine (orange) -->
+<rect x="680" y="90" width="290" height="175" rx="10" fill="#1c0f00" stroke="#f59e0b" stroke-width="2" filter="url(#sh2)"/>
+<text x="825" y="125" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="28">&#128203;</text>
+<text x="825" y="150" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">Rule Engine</text>
+<text x="825" y="172" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="13" font-weight="700">Custom Heuristics</text>
+<text x="825" y="193" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="10">20+ Accounting Domain Rules</text>
+<text x="825" y="209" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="10">GSTIN Direction Detection</text>
+<text x="825" y="225" text-anchor="middle" fill="#fde68a" font-family="Arial" font-size="10">Keyword Dictionaries  |  &lt;5ms/row</text>
+<text x="825" y="244" text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="9" font-weight="700">WHY: 35% of rows classified in &lt;5ms, 99% acc</text>
+<!-- Card 4: API (blue) -->
+<rect x="30" y="290" width="290" height="175" rx="10" fill="#00101e" stroke="#38bdf8" stroke-width="2" filter="url(#sh2)"/>
+<text x="155" y="325" text-anchor="middle" fill="#38bdf8" font-family="Arial" font-size="28">&#127760;</text>
+<text x="155" y="350" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">API and Interface</text>
+<text x="155" y="372" text-anchor="middle" fill="#38bdf8" font-family="Arial" font-size="13" font-weight="700">FastAPI + Streamlit</text>
+<text x="155" y="392" text-anchor="middle" fill="#7dd3fc" font-family="Arial" font-size="10">REST API  |  OpenAPI / Swagger Docs</text>
+<text x="155" y="408" text-anchor="middle" fill="#7dd3fc" font-family="Arial" font-size="10">Streamlit Evaluator Demo UI</text>
+<text x="155" y="424" text-anchor="middle" fill="#7dd3fc" font-family="Arial" font-size="10">Batch Classification CLI</text>
+<text x="155" y="444" text-anchor="middle" fill="#38bdf8" font-family="Arial" font-size="9" font-weight="700">WHY: Production-ready async API framework</text>
+<!-- Card 5: Data (teal) -->
+<rect x="355" y="290" width="290" height="175" rx="10" fill="#00211e" stroke="#2dd4bf" stroke-width="2" filter="url(#sh2)"/>
+<text x="500" y="325" text-anchor="middle" fill="#2dd4bf" font-family="Arial" font-size="28">&#128202;</text>
+<text x="500" y="350" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">Data Processing</text>
+<text x="500" y="372" text-anchor="middle" fill="#2dd4bf" font-family="Arial" font-size="13" font-weight="700">pandas + pydantic + spaCy</text>
+<text x="500" y="392" text-anchor="middle" fill="#99f6e4" font-family="Arial" font-size="10">Excel Ingestion  |  Schema Validation</text>
+<text x="500" y="408" text-anchor="middle" fill="#99f6e4" font-family="Arial" font-size="10">NLP Normalization  |  Type Coercion</text>
+<text x="500" y="424" text-anchor="middle" fill="#99f6e4" font-family="Arial" font-size="10">Unicode Handling  |  Missing Value Logic</text>
+<text x="500" y="444" text-anchor="middle" fill="#2dd4bf" font-family="Arial" font-size="9" font-weight="700">WHY: Industry standard, battle-tested stack</text>
+<!-- Card 6: Eval (red) -->
+<rect x="680" y="290" width="290" height="175" rx="10" fill="#1a0000" stroke="#f87171" stroke-width="2" filter="url(#sh2)"/>
+<text x="825" y="325" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="28">&#128207;</text>
+<text x="825" y="350" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="700">Evaluation</text>
+<text x="825" y="372" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="13" font-weight="700">scikit-learn + MLflow</text>
+<text x="825" y="392" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="10">Accuracy  |  Macro F1  |  Per-Category</text>
+<text x="825" y="408" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="10">Experiment Tracking  |  Model Versioning</text>
+<text x="825" y="424" text-anchor="middle" fill="#fca5a5" font-family="Arial" font-size="10">Structured Audit Logs  |  Latency Profiling</text>
+<text x="825" y="444" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="9" font-weight="700">TARGET: &#8805;90% Accuracy  |  &#8805;0.87 Macro F1</text>
+<!-- Bottom bar -->
+<rect x="20" y="485" width="960" height="55" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="500" y="508" text-anchor="middle" fill="#f0f6fc" font-family="Arial" font-size="11" font-weight="700">PERFORMANCE TARGETS</text>
+<text x="170" y="528" text-anchor="middle" fill="#10b981" font-family="Arial" font-size="11">&#8805;90% Accuracy</text>
+<text x="340" y="528" text-anchor="middle" fill="#a855f7" font-family="Arial" font-size="11">&#8805;0.87 Macro F1</text>
+<text x="500" y="528" text-anchor="middle" fill="#38bdf8" font-family="Arial" font-size="11">&lt;500ms Inference</text>
+<text x="660" y="528" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="11">500+ rows/min GPU</text>
+<text x="830" y="528" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="11">Apache 2.0 Open-Source</text>
+</svg>

@@ -15,6 +15,22 @@
 
 ---
 
+## 👥 Team Details
+
+<div align="center">
+
+| | |
+|:---:|:---|
+| 🏆 **Team Name** | **Team Hack-o-fy** |
+| 👑 **Team Leader** | Atharv Kshatriya |
+| 👨‍💻 **Members** | Atharva Sharma &nbsp;·&nbsp; Jeet Gondaliya &nbsp;·&nbsp; Pritesh Beladiya |
+| 🎯 **Problem Statement** | PS-4 · VYOM+ Intelligent Voucher Classification Using Open-Source LLMs |
+| 🏢 **Hackathon** | HacktoberFest 2026 · Organized by Elevate |
+
+</div>
+
+---
+
 ## Table of Contents
 
 1. [Problem Statement](#problem-statement)
